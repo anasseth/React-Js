@@ -1,0 +1,142 @@
+.op {
+    /*border:2px solid #1C90F3;*/
+    padding-top: 50px;
+    height:600px;
+    width:800px;
+    /*float: none;*/
+    margin-left:250px;
+    margin-top:10px;
+    border-radius:15px;
+    background-color:white;
+    /*box-shadow: 0px 10px 0px -6px lightseagreen;*/
+    overflow-x:hidden;
+    overflow-y:auto; 
+
+}
+.toto{
+  width:100%;
+  height:auto;
+}
+.todoitem{
+color:gray;
+background:white;
+height: 25px;
+width: 600px;
+border: 1px solid white; 
+overflow:hidden;
+/*border-radius:10px;*/
+border: solid 5px transparent;
+border-left: lightseagreen 4px solid;
+box-shadow: 0 2px 2px -2px gray;
+transition-duration:0.3s;
+padding-left:20px; 
+margin-top: 10px;
+/*box-shadow: 0px 0px 5px -1px #444444*/
+}
+.todoitem:hover {
+/*border-radius:10px;*/
+color:purple;
+background: white;
+background-color:white;
+height: 25px;
+width: 600px;
+border: solid 5px transparent;
+border-left: purple 4px solid;
+border-left-color: purple;
+/*border-right: purple 4px solid;*/
+box-shadow: 0 4px 4px -3px gray;
+transition-duration:0.3s;
+/*box-shadow: 0px 0px 3px -1px #444444*/
+}
+.head{
+  height:40px;
+  width:100%;
+  background-color: transparent;
+  padding-top:20px;
+  padding-left: 10px;
+}
+
+o{
+width:800px;
+border-left: gray 2px solid;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.imgo{
+  height:auto;
+  width:100%;
+  /*background: linear-gradient(45deg,white,gray,black)*/
+  /*background-color:red */
+}
+button{
+
+  text-decoration: none;
+  /*padding: 15px 10px 15px 10px;*/
+  height:50px;
+  width:50px;
+  background-color:#1c90f3;
+  text-align:center;
+  border: 2px solid #1C90F3;
+  margin-left:10px;
+  border-radius: 50%;
+  transition-duration:0.6s;
+  outline: none;
+  /*float:right;*/
+}
+button:hover{
+  /*margin-top: 20px;*/
+  color:white;
+  border-radius: 50%;
+  text-decoration: none;
+  /*margin-left:150px;*/
+  /*padding: 15px 10px 15px 10px;*/
+    height:50px;
+  width:50px;
+  background-color:white;
+  text-align:center;
+  /*margin-left:25px;*/
+  border: 2px solid #1C90F3;
+  /*float:right;*/
+  transition-duration:0.6s;
+}
+input{
+  font-size: 20px;
+  color:#1c90f3;
+  height:35px;
+  /*border-radius:25px;*/
+  width:500px;
+  border: 4px solid white;
+  position: absolute;
+  box-shadow: 0 3px 2px -2px darkblue;
+  margin-left:-100px;
+  outline:none;
+  /*margin-top: -30px;*/
+}
+
+h2,h3{
+  /*font-family: 'Lobster', cursive;*/
+  color:#1C90F3;
+}
+.ab{
+  margin-left:100px;
+}
